@@ -23,8 +23,9 @@ JuiceSSH is batter to use it for any shell or cli hostes with more good things (
 --- all command here used with root idont make usr ---
 
 # //Install softweres and libs (root without user)
-apt update -y
-dpkg --add-architecture i386
+    apt update -y
+    
+    dpkg --add-architecture i386
 apt install lib32gcc-s1 lib32stdc++6 libc6-i386 libcurl4-gnutls-dev:i386 libsdl2-2.0-0:i386
 add-apt-repository multiverse
 cd && apt install steamcmd
@@ -50,7 +51,7 @@ tar -zxf xashds-linux-i386.tar.gz && cd xashds-linux-i386 && cp -rf * /home/xash
 ---- if u wont addons and fastdll dont open the server with screen..  and And follow the rest of the explanation
 
 
-#//-- install amxmod 1.9-with metamod
+# //-- install amxmod 1.9-with metamod
 cd && cd /home/xash/cstrike && rm liblist.gam && rm gameinfo.txt && rm -rf addons && cd ..
 wget https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/raw/refs/heads/main/addons_for_xashds.zip
 unzip addons_for_xashds.zip && rm addons_for_xashds.zip
@@ -66,7 +67,7 @@ cp -rf sprites /var/www/html/cstrike
 cd && cd .. && cd ..  && cd /var/www/html
 chmod -R 777 *
 
-#//-- configerate server.cfg:--
+# //-- configerate server.cfg:--
 cd && cd /home/xash/cstrike && nano server.cfg
 hostname "set-ur-server-name"
 sv_allow_download "1"
