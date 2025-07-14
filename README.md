@@ -79,7 +79,7 @@ is batter to use it for any shell or cli hostes with more good things (download 
 
 # ---save the change configer on mobile press"[ctrl] and [x] and [y] and [entr]
 
-<img src="https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/blob/main/server_confugerate_save.jpg?raw=true" width="200"/>
+   <img src="https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/blob/main/server_confugerate_save.jpg?raw=true" width="200"/>
 
 # //--from here ur server ready to open with latest updates plus fastdl to run server:pls copy line by line cods 
     cd && cd /home/xash
