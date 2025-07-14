@@ -25,7 +25,7 @@ All steps to do on vps linux to open xash3d public server (root without usr )
 ![Image](https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/blob/main/juiceicon.png?raw=true)
 is batter to use it for any shell or cli hostes with more good things (download the apk from google not acces on playstore)
 
-# //Install softweres and libs (root without user). pls copy line by line cods
+# //--Install softweres and libs (root without user). pls copy line by line cods
     apt update -y 
     dpkg --add-architecture i386
     apt install lib32gcc-s1 lib32stdc++6 libc6-i386 libcurl4-gnutls-dev:i386 libsdl2-2.0-0:i386
@@ -38,16 +38,17 @@ is batter to use it for any shell or cli hostes with more good things (download 
 
  
  # //--Login to steamcmd and install hlds files. pls copy line by line cods
-steamcmd
-force_install_dir /home/xash/ 
-login anonymous
-app_update 90 validate
-exit
+    steamcmd
+    force_install_dir /home/xash/ 
+    login anonymous
+    app_update 90 validate
+    exit
 
 # //-- Install xashds libs (new ongine only). pls copy line by line cods
-cd && cd /home/xash && rm filesystem_stdio.so
-wget https://github.com/FWGS/xash3d-fwgs/releases/download/continuous-vbo-fix/xashds-linux-i386.tar.gz
-tar -zxf xashds-linux-i386.tar.gz && cd xashds-linux-i386 && cp -rf * /home/xash && cd .. && rm xashds-linux-i386.tar.gz && rm -rf xashds-linux-i386 && chmod +x *
+    cd && cd /home/xash && rm filesystem_stdio.so
+    wget https://github.com/FWGS/xash3d-fwgs/releases/download/continuous-vbo-fix/xashds-linux-i386.tar.gz
+    
+    tar -zxf xashds-linux-i386.tar.gz && cd xashds-linux-i386 && cp -rf * /home/xash && cd .. && rm xashds-linux-i386.tar.gz && rm -rf xashds-linux-i386 && chmod +x *
 
 ---- Now if u want open server but classic mod (without addons) Below you will find an command that starts with screen... just copy it to vps.
 ---- if u wont addons and fastdll dont open the server with screen..  and And follow the rest of the explanation
