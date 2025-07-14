@@ -6,7 +6,7 @@ All steps to do on vps linux to open xash3d public server (root without usr )
 
  ( this example tutorial for classic server  )
  
-# example
+# example:
    for this tutorial i use xash folder inside them cstrike and valve games (xash/cstrike/...)  
    game directory in
    home/xash
@@ -81,7 +81,7 @@ is batter to use it for any shell or cli hostes with more good things (download 
 
    <img src="https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/blob/main/server_confugerate_save.jpg?raw=true" width="300"/>
 
-# //--from here ur server ready to open with latest updates plus fastdl to run server:pls copy line by line cods 
+# //--from here ur server ready to open with latest updates plus fastdl to run server: (pls copy line by line cods)
     cd && cd /home/xash
     screen ./xash3d -game cstrike +maxplayers 32 +map de_dust2 +port 27015
 
