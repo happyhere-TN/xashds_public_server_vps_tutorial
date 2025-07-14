@@ -26,7 +26,7 @@ All steps to do on vps linux to open xash3d public server (root without usr )
 <img src="https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/blob/main/juiceicon.png?raw=true" width="50"/>
 is batter to use it for any shell or cli hostes with more good things (download the apk from google not acces on playstore)
 
-# //--Install softweres and libs (root without user). pls copy line by line cods
+# //--Install softweres and libs root without user. (pls copy line by line cods)
     apt update -y 
     dpkg --add-architecture i386
     apt install lib32gcc-s1 lib32stdc++6 libc6-i386 libcurl4-gnutls-dev:i386 libsdl2-2.0-0:i386
@@ -38,14 +38,14 @@ is batter to use it for any shell or cli hostes with more good things (download 
     apt update
 
  
- # //--Login to steamcmd and install hlds files. pls copy line by line cods
+ # //--Login to steamcmd and install hlds files. (pls copy line by line cods)
     steamcmd
     force_install_dir /home/xash/ 
     login anonymous
     app_update 90 validate
     exit
 
-# //-- Install xashds libs (new ongine only). pls copy line by line cods
+# //-- Install xashds libs new ongine only. (pls copy line by line cods)
     cd && cd /home/xash && rm filesystem_stdio.so
     wget https://github.com/FWGS/xash3d-fwgs/releases/download/continuous-vbo-fix/xashds-linux-i386.tar.gz
     tar -zxf xashds-linux-i386.tar.gz && cd xashds-linux-i386 && cp -rf * /home/xash && cd .. && rm xashds-linux-i386.tar.gz && rm -rf xashds-linux-i386 && chmod +x * && cd && cd /home/xash
@@ -54,12 +54,12 @@ is batter to use it for any shell or cli hostes with more good things (download 
 ---- if u wont addons and fastdll dont open the server with screen..  and And follow the rest of the explanation
 
 
-# //--install amxmod 1.9-with metamod. pls copy line by line cods
+# //--install amxmod 1.9-with metamod. (pls copy line by line cods)
     cd && cd /home/xash/cstrike && rm liblist.gam && rm gameinfo.txt && rm -rf addons && cd ..
     wget https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/raw/refs/heads/main/addons_for_xashds.zip
     unzip addons_for_xashds.zip && rm addons_for_xashds.zip
 
-# //--Fastdl configerate. pls copy line by line cods
+# //--Fastdl configerate. (pls copy line by line cods)
     cd && cd /var/www/html && mkdir cstrike 
     cd && cd .. && cd /home/xash/cstrike
     cp -rf models /var/www/html/cstrike
@@ -70,7 +70,7 @@ is batter to use it for any shell or cli hostes with more good things (download 
     cd && cd .. && cd ..  && cd /var/www/html
     chmod -R 777 *
 
-# //-- configerate server.cfg: pls copy line by line cods
+# //-- configerate server.cfg: (pls copy line by line cods)
     cd && cd /home/xash/cstrike && nano server.cfg
     hostname "set-ur-server-name"
     sv_allow_download "1"
@@ -88,5 +88,5 @@ is batter to use it for any shell or cli hostes with more good things (download 
 
 ---to close server tipe: exit
 
-# about how to add plugins and add mods like zp or ze ...  its need more time to set tutorial if u want that ask me on issuse
+---(about how to add plugins and add mods like zp or ze ...  its need more time to set tutorial if u want that ask me on issues)
 
