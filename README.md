@@ -21,7 +21,8 @@ All steps to do on vps linux to open xash3d public server (root without usr )
 > 20gb storage
 
 # SSH useage:
-JuiceSSH is batter to use it for any shell or cli hostes with more good things (download the apk from google not acces on playstore)
+JuiceSSH![Image]()
+is batter to use it for any shell or cli hostes with more good things (download the apk from google not acces on playstore)
 
 --- all command here used with root idont make usr ---
 
