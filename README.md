@@ -22,7 +22,9 @@ All steps to do on vps linux to open xash3d public server (root without usr )
 
 # SSH useage:
 # **JuiceSSH
-![Image](https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/blob/main/juiceicon.png?raw=true)
+ 
+<img src="https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/blob/main/juiceicon.png?raw=true" width="200" />
+![Image]()
 is batter to use it for any shell or cli hostes with more good things (download the apk from google not acces on playstore)
 
 # //--Install softweres and libs (root without user). pls copy line by line cods
