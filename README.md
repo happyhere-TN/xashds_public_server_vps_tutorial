@@ -45,7 +45,7 @@ is batter to use it for any shell or cli hostes with more good things (download 
     app_update 90 validate
     exit
 
-# //-- Install xashds libs new ongine only. (pls copy line by line cods)
+# //-- Install xashds libs new engine only. (pls copy line by line cods)
     cd && cd /home/xash && rm filesystem_stdio.so
     wget https://github.com/FWGS/xash3d-fwgs/releases/download/continuous-vbo-fix/xashds-linux-i386.tar.gz
     tar -zxf xashds-linux-i386.tar.gz && cd xashds-linux-i386 && cp -rf * /home/xash && cd .. && rm xashds-linux-i386.tar.gz && rm -rf xashds-linux-i386 && chmod +x * && cd && cd /home/xash
