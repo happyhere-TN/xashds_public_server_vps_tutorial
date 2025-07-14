@@ -28,6 +28,7 @@ is batter to use it for any shell or cli hostes with more good things (download 
 
 # //--Install softweres and libs root without user. (pls copy line by line cods)
     apt update -y 
+    apt upgrade -y
     dpkg --add-architecture i386
     apt install lib32gcc-s1 lib32stdc++6 libc6-i386 libcurl4-gnutls-dev:i386 libsdl2-2.0-0:i386
     add-apt-repository multiverse
@@ -35,7 +36,7 @@ is batter to use it for any shell or cli hostes with more good things (download 
     apt install unzip -y
     apt intall wget -y
     apt install apache2
-    apt update
+    apt update -y
 
  
  # //--Login to steamcmd and install hlds files. (pls copy line by line cods)
