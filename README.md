@@ -6,10 +6,10 @@ All steps to do on vps linux to open xash3d public server (root without usr )
 
  ( this example tutorial for classic server  )
  
-# **example:  
-      for this tutorial i use xash folder inside them cstrike and valve games (xash/cstrike/...)  
-      game directory in
-      home/xash
+# **example
+   for this tutorial i use xash folder inside them cstrike and valve games (xash/cstrike/...)  
+   game directory in
+   home/xash
 
 # **test it on vps:
 ubuntu 20.04 LTS x64
