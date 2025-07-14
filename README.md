@@ -76,7 +76,8 @@ is batter to use it for any shell or cli hostes with more good things (download 
     sv_allow_upload "1"
     sv_downloadurl "http://my-vps-ip/cstrike/"
 
---- save the change configer on mobile press"[ctrl] and [x] and [y] and [entr] --
+#---save the change configer on mobile press"[ctrl] and [x] and [y] and [entr]
+![Image]()
 
 
 # //--from here ur server ready to open with latest updates plus fastdl to run server:pls copy line by line cods 
