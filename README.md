@@ -1,4 +1,4 @@
-# xashds_public_server-vps-_tutorial
+# xashds_public_server_vps_tutorial
 All steps to do on vps linux to open xash3d public server (root without usr )
 
 
