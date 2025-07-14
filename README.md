@@ -12,10 +12,10 @@ All steps to do on vps linux to open xash3d public server (root without usr )
    home/xash
 
 # **test it on vps:
-ubuntu 20.04 LTS x64
-1gb ram 
-1core 
-20gb storage
+> ubuntu 20.04 LTS x64
+> 1gb ram 
+> 1core 
+> 20gb storage
 
 # **SSH useage:
 JuiceSSH is batter to use it for any shell or cli hostes with more good things (download the apk from google not acces on playstore)
