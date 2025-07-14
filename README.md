@@ -13,8 +13,11 @@ All steps to do on vps linux to open xash3d public server (root without usr )
 
 # test it on vps:
 > ubuntu 20.04 LTS x64
+
 > 1gb ram 
+
 > 1core 
+
 > 20gb storage
 
 # SSH useage:
