@@ -2,7 +2,7 @@
 All steps to do on vps linux to open xash3d public server (root without usr )
 
 
-# this script show u how to install xash3d public server on vps linux with addons and fastdl
+# how to install xash3d public server on vps linux with addons and fastdl
 
  ( this example tutorial for classic server  )
  
