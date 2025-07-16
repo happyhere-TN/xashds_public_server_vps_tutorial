@@ -35,7 +35,7 @@ is batter to use it for any shell or cli hostes with more good things (download 
     add-apt-repository multiverse
     cd && apt install steamcmd
     apt install unzip -y
-    apt intall wget -y
+    apt install wget -y
     apt install apache2
     apt update -y
 
