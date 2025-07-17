@@ -57,7 +57,7 @@ is batter to use it for any shell or cli hostes with more good things (download 
 
 
 # //--install amxmod 1.9-with metamod. (pls copy line by line cods)
-    cd && cd /home/xash/cstrike && rm liblist.gam && rm gameinfo.txt && rm -rf addons && cd ..
+    cd && cd /home/xash/cstrike && rm liblist.gam && rm -rf addons && cd ..
     wget https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/raw/refs/heads/main/addons_for_xashds.zip
     unzip addons_for_xashds.zip && rm addons_for_xashds.zip
 
@@ -85,7 +85,7 @@ is batter to use it for any shell or cli hostes with more good things (download 
 
 # //--from here ur server ready to open with latest updates plus fastdl to run server: (pls copy line by line cods)
     cd && cd /home/xash
-    screen ./xash3d -game cstrike +maxplayers 32 +map de_dust2 +port 27015
+    screen ./xash -game cstrike +maxplayers 32 +map de_dust2 +port 27015
 
 ---to close server tipe: exit
 
