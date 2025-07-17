@@ -42,7 +42,7 @@ is batter to use it for any shell or cli hostes with more good things (download 
 
  
  # //--Login to steamcmd and install hlds files:
-    steamcmd
+    cd && cd /usr/games && chmod +x * && ./steamcmd
     force_install_dir /home/xash/ 
     login anonymous
     app_update 90 validate
