@@ -26,7 +26,7 @@ JuiceSSH
 <img src="https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/blob/main/juiceicon.png?raw=true" width="50"/>
 is batter to use it for any shell or cli hostes with more good things (download the apk from google not acces on playstore)
 
-# //--Install softweres and libs root without user:
+# //--Install softweres:
     sudo -i
     apt update -y 
     apt upgrade -y
