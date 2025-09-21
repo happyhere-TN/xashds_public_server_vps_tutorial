@@ -49,9 +49,7 @@ is batter to use it for any shell or cli hostes with more good things (download 
     exit
 
 # //-- Install xashds libs new engine only:
-    cd && cd /home/xash && rm filesystem_stdio.so
-    wget https://github.com/FWGS/xash3d-fwgs/releases/download/continuous-vbo-fix/xashds-linux-i386.tar.gz
-    tar -zxf xashds-linux-i386.tar.gz && cd xashds-linux-i386 && cp -rf * /home/xash && cd .. && rm xashds-linux-i386.tar.gz && rm -rf xashds-linux-i386 && chmod +x * && cd && cd /home/xash
+    cd && cd /home/xash && rm filesystem_stdio.so && wget https://github.com/happyhere-TN/HLDS_CHOICE--private-/raw/refs/heads/main/xashlib.tar.gz && tar -zxf xashlib.tar.gz && chmod +x * && cd && cd /home/xash
 
 ---- Now if u want open server but classic mod (without addons) Below you will find an command that starts with screen... just copy it to vps.
 ---- if u wont addons and fastdll dont open the server with screen..  and And follow the rest of the explanation
